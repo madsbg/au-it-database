@@ -1,6 +1,6 @@
 # AU i informationsteknologi - Database
 
-### Materiale
+### Undervisningsmateriale
 
 - Moodle: https://cphbusiness.mrooms.net/course/view.php?id=18043
 
@@ -16,13 +16,13 @@
 
 ## Opsætning af kursusmiljø
 
-Kursusmiljøet er bygget på et Docker image med en [MariaDB](https://mariadb.org/) database server. Administrationsværktøjet [DBeaver](https://dbeaver.io/) benyttes til at forbinde til databasen.
+Kursusmiljøet er bygget på et Docker image med en [MariaDB](https://mariadb.org/) database server. Administrationsværktøjet [DBeaver](https://dbeaver.io/) benyttes til at forbinde til databasen og udføre SQL kommandoer.
 
 ### Installer Docker Desktop
 
 Begynd med at installere [Docker Desktop](https://www.docker.com/products/docker-desktop/) til dit operativsystem. Hvis du bruger Windows skal du først [installere WSL](https://learn.microsoft.com/en-us/windows/wsl/install) (Windows Subsystem for Linux), inden du kan installere Docker Desktop.
 
-Følgende kommandoer skal udføres i et terminal vindue.
+Derefter skal følgende kommandoer udføres i et terminal vindue.
 
 Hent det seneste Docker image med MariaDB database serveren.
 ```
@@ -50,9 +50,9 @@ docker ps
 
 ### Installer DBeaver
 
-Download først [DBeaver Community](https://dbeaver.io/download/) til dit operativ system og udfør derefter [installationen](https://dbeaver.io/download/#requirements).
+Download [DBeaver Community](https://dbeaver.io/download/) til dit operativ system og udfør derefter [installationen](https://dbeaver.io/download/#requirements).
 
-Åbn DBeaver og opret en ny database server forbindelse:
+Åbn DBeaver og opret en ny forbindelse til MariaDB database serveren:
 1. Vælg *New Database Connection*.
 2. Vælg *MariaDB* som database.
 3. Udfyld følgende felter:
