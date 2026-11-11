@@ -1,5 +1,5 @@
--- Exercises from session 1
--- Database: course
+-- Session 1 exercises
+USE course;
 
 SELECT * FROM courses;
 
